@@ -1,0 +1,10 @@
+<?php
+
+function nameGenerator($name){
+
+  return $name ." ". rand(6,15);
+}
+
+$name = nameGenerator("maulik");
+echo $name;
+?>
